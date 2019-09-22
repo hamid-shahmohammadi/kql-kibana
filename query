@@ -1,1 +1,7 @@
-context : "sms" and logName : "Incoming"
+context : "sms" and logName : "Incoming" and message:*09122369666*
+
+"22097c0a-469f-42c8-ba42-c1f2533207f" and resource : Response from service
+
+remote_user.keyword : "partak" and message : *10.1.25.98*
+
+context : *bundlingrequest*
